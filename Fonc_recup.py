@@ -33,24 +33,9 @@ def nettoyage_espaces(chaine):
         ch=ch[1:]
     return ch
 
-test={'nom_ent': 'BROCELIANDE', 'num_voie': '', 'type_voie': '', 'nom_voie': nan, 'code_postal': '', 'dep': '', 'commune': 'VILLERS BOCAGE', 'bis_ter': '', 'adresse_complete': 'nan'}
+test={'nom_ent': 'DSDEN (EDUCATION NATIONALE)', 'num_voie': '', 'type_voie': '', 'nom_voie': 'COLLEGE GUY DE MAUPASSANT', 'code_postal': '', 'dep': '14', 'commune': 'SAINT MARTIN DE FONTENAY', 'bis_ter': '', 'adresse_complete': 'COLLEGE GUY DE MAUPASSANT'}
 
-def recup_PJ(ligne_ent): 
-#    ligne_ent=test
-    nom=ligne_ent["nom_ent"]
-    if ligne_ent["type_voie"]!="":
-        ville=ligne_ent["type_voie"]+"-"
-    else:
-        ville=""
-    if ligne_ent["nom_voie"]!="" and str(ligne_ent["nom_voie"])==ligne_ent["nom_voie"]:
-        ville=ville+ligne_ent["nom_voie"].replace(" ","-")+"-"
-    if ligne_ent["commune"]!="":
-        ville=ville+ligne_ent["commune"]+"-"
-    if ligne_ent["dep"]!="":
-        ville=ville+ligne_ent["dep"]+"-"
-    elif ligne_ent["commune"]=="":
-        ville=ville+ligne_ent["code_postal"]+"-"
-    ville=ville[:-1]
+def requete_PJ(nom,ville):
     url='https://www.pagesjaunes.fr/recherche/'+ville+'/'+nom
     r=requests.post(url)
     contenu=r.text
@@ -59,28 +44,55 @@ def recup_PJ(ligne_ent):
             '//*[contains(concat( " ", @class, " " ), concat( " ", "denomination-links", " " ))]')
     result_addresses=tree.xpath(
             '//*[contains(concat( " ", @class, " " ), concat( " ", "adresse", " " ))]')
-    result_secteurs=tree.xpath(
-            '//*[contains(concat( " ", @class, " " ), concat( " ", "activites", " " ))]')
-#    #TEST####
-#    len(result_names)==len(result_addresses)
-#    len(result_names)==len(result_secteurs)
-#    #######
-    n=len(result_names)
+    return (contenu,result_names,result_addresses)
+    
+def recup_PJ(ligne_ent): 
+#    ligne_ent=test
     tab=[]
-    for i in range(n):
-        #Le nom
-        name=result_names[i].text.split("\n")[1]
-        name=nettoyage_espaces(name)
-        #L'adresse (en deux étapes)
-        addr=result_addresses[i].text.split("\n")[2].split(",")[0]
-        addr=nettoyage_espaces(addr)
-        town=result_addresses[i].text.split("\n")[2].split(",")[1]
-        town=nettoyage_espaces(town)
-        postal=''.join([i for i in town if i.isdigit()])
-#        #Le secteur d'activité
-#        sector=result_secteurs[i].text.split("\n")[1]
-#        sector=nettoyage_espaces(sector)
-        tab.append([name,postal])
+    nom=ligne_ent["nom_ent"]
+    j=0
+    while j<2:
+        if ligne_ent["nom_voie"]!="" and str(ligne_ent["nom_voie"])==ligne_ent["nom_voie"] and j==0:
+            if ligne_ent["type_voie"]!="":
+                ville=ligne_ent["type_voie"]+"-"
+            else:
+                ville=""
+            ville=ville+ligne_ent["nom_voie"].replace(" ","-")+"-"
+        else:
+            ville=""
+        if ligne_ent["commune"]!="":
+            ville=ville+ligne_ent["commune"]+"-"
+        if ligne_ent["dep"]!="":
+            ville=ville+ligne_ent["dep"]+"-"
+        elif ligne_ent["commune"]=="":
+            ville=ville+ligne_ent["code_postal"]+"-"
+        ville=ville[:-1]
+        (contenu,result_names,result_addresses)=requete_PJ(nom,ville)
+    #    result_secteurs=tree.xpath(
+    #            '//*[contains(concat( " ", @class, " " ), concat( " ", "activites", " " ))]')
+    #    #TEST####
+    #    len(result_names)==len(result_addresses)
+    #    len(result_names)==len(result_secteurs)
+    #    #######
+        n=len(result_names)
+        if n>0:
+            j=10
+            for i in range(n):
+                #Le nom
+                name=result_names[i].text.split("\n")[1]
+                name=nettoyage_espaces(name)
+                #L'adresse (en deux étapes)
+                addr=result_addresses[i].text.split("\n")[2].split(",")[0]
+                addr=nettoyage_espaces(addr)
+                town=result_addresses[i].text.split("\n")[2].split(",")[1]
+                town=nettoyage_espaces(town)
+                postal=''.join([i for i in town if i.isdigit()])
+            #        #Le secteur d'activité
+            #        sector=result_secteurs[i].text.split("\n")[1]
+            #        sector=nettoyage_espaces(sector)
+                tab.append([name,postal])
+        else:
+            j=j+1
     return pd.DataFrame(tab)
 
 test={'nom_ent': 'GENDARMERIE NATIONALE', 'num_voie': '2', 'type_voie': 'Rue', 'nom_voie': 'DE CHATEAUBRIAND', 'code_postal': '1053', 'dep': '', 'commune': '', 'bis_ter': '', 'adresse_complete': '2 Rue DE CHATEAUBRIAND'}
