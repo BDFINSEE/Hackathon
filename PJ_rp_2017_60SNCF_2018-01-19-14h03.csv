@@ -1,0 +1,276 @@
+,CABBI,RS_X,NOMVOI_X,NUMVOI_X,TYPEVOI_X,BISTER_X,CPLADR_X,CLT_X
+0,7303829372.0,Demouy (SA),Bienville,29,r,,,CLAIROIX
+1,7303829371.0,A.S.D.A.P.A.,Paris,33,r,,,COMPIÈGNE
+2,7353352524.0,Matra Electronique,Ferdinand Meunier,4,r,,,LACROIX SAINT OUEN
+3,7353352525.0,CPC-Clôtures Portails Compiègnois,Kléber Bibaud,2,r,,,THOUROTTE
+4,7353352396.0,Guinard Sangav,Senlis,71,av,,,CRÉPY EN VALOIS
+5,7353352397.0,Mairie,Neuve,1,r,,,BERNEUIL EN BRAY
+6,7353352776.0,Orange Ui Picardie,Louis Barthou,365,r,,,MARGNY LES COMPIEGNE
+7,7303829354.0,Maison De Retraite Dorchy,Parc,1,r,,,ATTICHY
+8,7353352804.0,Zub (SA),Reims,22,r,,,COULOISY
+9,7303829564.0,Dzo Familles,Oise,36,r,,,COMPIÈGNE
+10,7303829243.0,Communauté De Communes Des Deux Vallées (CC2V),Mar Juin,9,r,,,THOUROTTE
+11,7353352450.0,Sanofi-Aventis,Choisy,56,rte,,,COMPIÈGNE
+12,7353352451.0,A.D.S.E.A.O,Bataillon de France,26,r,,,COMPIÈGNE
+13,7353352381.0,Thomas Husein,Henri Adnot,8,av,,,COMPIÈGNE
+14,7353352505.0,La Mie Câline,Napoléon 13 pl Hôtel de Ville,1,r,,,COMPIÈGNE
+15,7353352506.0,La Mie Câline,Napoléon 13 pl Hôtel de Ville,1,r,,,COMPIÈGNE
+16,7303829373.0,MENUISERIE PICHUTKA,Hermitage,12,r,,,AUTRÊCHES
+17,7303829374.0,Cip Clôtures (SA),Pont des Rets,145,r,,,CHOISY AU BAC
+18,7303829861.0,Maison Saint Jean,Montagne,7,r,,,TRACY LE MONT
+19,7353352458.0,Nathalie Bochet,Domeliers,21,r,,,COMPIÈGNE
+20,7353352380.0,L'Atelier de Charlotte,Hippolyte Bottier,19,r,Bis,,COMPIÈGNE
+21,7353352786.0,Speedy DLCT Auto (SARL) Agent,Queue d'Oigny,2,r,Ter,,VILLERS COTTERETS
+22,7353352787.0,Speedy DLCT Auto (SARL) Agent,Queue d'Oigny,2,r,Ter,,VILLERS COTTERETS
+23,7303829240.0,Degauchy Lucien (Ets),Angouleme,4,r,,,COURTIEUX
+24,7303829479.0,PARIS PORTES,Gaston Roussel,204,av,,,ROMAINVILLE
+25,7353352778.0,Clinique du Cèdre Centre Hospitalier Chauny,Anciens Combattants AFN,94,r,,,CHAUNY
+26,7303829880.0,Colgate Palmolive Industriel,Vermandois,60,av,,,COMPIÈGNE
+27,7303829672.0,Virginie Sebbagh,Henri Adnot,8,av,,,COMPIÈGNE
+28,7303829242.0,Sanofi-Aventis,Choisy,56,rte,,,COMPIÈGNE
+29,7303829366.0,Mairie,Hôtel de Ville,,pl,,,CHAUNY
+30,7303829239.0,Mairie,St Pierre,13,r,,,VERBERIE
+31,7353352374.0,Promeo,"Mare Gessart, ZAC du Bois de Plaisance",87,av,,,VENETTE
+32,7353352375.0,Centre Des Finances Publiques,Winston Churchill,6,r,,,COMPIÈGNE
+33,7353352311.0,Pierson Solarbois,Raymond Faroux,15,r,,,BERNEUIL SUR AISNE
+34,7303829657.0,A.S.D.A.P.A.,Paris,33,r,,,COMPIÈGNE
+35,7303829658.0,MME ATTI TIFFANY JACQUELI,Ferme,1,r,,,MORTEFONTAINE
+36,7353352489.0,Sanofi-Aventis,Choisy,56,rte,,,COMPIÈGNE
+37,7303829478.0,Hyva France,Gén de Gaulle,,r,,,LE MEUX
+38,7303829581.0,Sévigné Compiègne,Sous Préfecture,20,r,,,COMPIÈGNE
+39,7353352490.0,Sanofi-Aventis,Choisy,56,rte,,,COMPIÈGNE
+40,7353352346.0,Ovelo Spécialiste du Vélo Electrique,Division Leclerc,76,av,,,ANTONY
+41,7353352538.0,Lesens Vallée de l'Oise,Flandres Dunkerque,2,av,,,COMPIÈGNE
+42,7353352539.0,Laurent Touzart,Henri Adnot,8,av,,,COMPIÈGNE
+43,7353352424.0,Abpêche 02,Pierre Bourdan,33,r,,,LAON
+44,7353352425.0,Mairie,Neuve,1,r,,,BERNEUIL EN BRAY
+45,7353352363.0,UEMO COMPIEGNE,Parmentier,8,r,,,COMPIÈGNE
+46,7353352344.0,Université Technologie de Compiègne (U.T.C),Centre Pierre Guillaumat,,r,,,COMPIEGNE CEDEX
+47,7303829208.0,Octopeek,Gén de Gaulle,1 22,r,,,ENGHIEN LES BAINS
+48,7303829232.0,La Royale,Senlis,22,r,,,COMPIÈGNE
+49,7303829381.0,Coffin Bernard,Quesnoy,1,r,,,PARVILLERS LE QUESNOY
+50,7353352514.0,Manuloc - Hyster,Grande Pree,,r,,,LE MEUX
+51,7303829353.0,Tetra Informatique,République,42,r,Bis,,CLAIROIX
+52,7353352312.0,A.B.E.J Coquerel (Association Baptiste pour Entraide et Jeunesse),Jean Lenoir,12,r,,,PIERREFONDS
+53,7353352526.0,LEROY MERLIN,Metiers,154,r,,,JAUX
+54,7353352527.0,NaturéO Dourdan,Orsonville,7,r,,,DOURDAN
+55,7303829715.0,Poclain Hydraulics Industrie,de Compiègne,,rte,,,VERBERIE
+56,7353507570.0,SDIS60 (Service Départemental d-Incendie et de Secours de l'Oise),Europe,,av,,,TILLÉ
+57,7303871107.0,Agri Santerre,Noyers St Martin,,rte,,,FROISSY
+58,7353507603.0,Debas Cyr,Diogène Maillart,23,r,,,LACHAUSSÉE DU BOIS D'ECU
+59,7303871101.0,LNA Santé Institut Médical De Breteuil,Paris,32,r,,,BRETEUIL
+60,7353507659.0,Deffaux Frédéric,Mairie,17,r,,,SAINT REMY EN L'EAU
+61,7353507589.0,MATROT Equipements,Pommiers,116,r,,,NOYERS SAINT MARTIN
+62,7353507660.0,SOGECO,Calais,97,r,,,TROISSEREUX
+63,7303871133.0,MATROT Equipements,Pommiers,116,r,,,NOYERS SAINT MARTIN
+64,7303871229.0,MD TRANSPORTS,Calais,,r,,,TROISSEREUX
+65,7353507690.0,Eiffage Immobilier Picardie Haute Normandie,Italie,24,av,,,AMIENS
+66,7353507559.0,Bar des Sports,Corbeaulieu,1,r,,,VENETTE
+67,7353507560.0,Bar des Sports,Corbeaulieu,1,r,,,VENETTE
+68,7303871183.0,Salentey (Ets),Wage,1,r,,,BEAUVAIS
+69,7353507586.0,Eurovia Picardie,Henri Barbusse,,bd,,,THOUROTTE
+70,7353507587.0,Mairie,Condorcet,2,r,,,MÉRU
+71,7303871613.0,RS Components (SAS),Norman King,,r,,,BEAUVAIS CEDEX
+72,7303871614.0,Eladis,Gisors,,rte,,,GOINCOURT
+73,7303871524.0,A.T.V.S.,Saint Just des Marais,54,r,,,BEAUVAIS
+74,7353507604.0,Hôpital Local Jean-Baptiste Caron,Hôtel de Ville,18,pl,,,CRÈVECOEUR LE GRAND
+75,7353507595.0,Union Départementale Des Associations Familiales (U.D.A.F),Gén Leclerc,35,r,,,BEAUVAIS
+76,7353507647.0,Comptoir Nordique De Miroiterie,40 Mines,66,r,,,ALLONNE
+77,7303871280.0,ACB Industrie,Quarante Mines,30,r,,,ALLONNE
+78,7353507596.0,MEL SECURITE,Henri Poincaré,48,r,,,ASNIERES SUR SEINE
+79,7353507556.0,Centre hospitalier de Beauvais,Léon Blum,40,av,,,BEAUVAIS
+80,7303871630.0,Agco Finance,Blaise Pascal,41,av,,,BEAUVAIS
+81,7303871228.0,Mairie,Gabriel Peri,,pl,,,BALAGNY SUR THÉRAIN
+82,7353507712.0,Hôpital de Beauvais,Léon Blum,,av,,,BEAUVAIS
+83,7303871460.0,Radiologie De La Clinique Du Parc St Lazare,Jean Rostand,1,av,,,BEAUVAIS
+84,7303871146.0,Delphi Environnement (SARL),Neuve,19,r,,,BONLIER
+85,7353507635.0,MEL SECURITE,Henri Poincaré,48,r,,,ASNIERES SUR SEINE
+86,7303871184.0,Délégation Territoriale A La Solidarité Du Beauvaisie Du Conseil Général De L'Oise,Brulet,28,r,,,BEAUVAIS
+87,7353507547.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+88,7303871337.0,Fiab (SAS),Petit Sorri,1,r,,,FROISSY
+89,7303871276.0,CC Du Grand Roye,Roye,,r,,,MONTDIDIER
+90,7303871313.0,MAIRIE,Buzanval,6,r,,,BEAUVAIS
+91,7303871571.0,MATROT Equipements,Pommiers,116,r,,,NOYERS SAINT MARTIN
+92,7303871534.0,Direction Départementale Police aux Frontières de l'Oise,Déportés,135,r,,,BEAUVAIS
+93,7303871618.0,Les Taxis Picards,Marronniers,74,r,,,NOYERS SAINT MARTIN
+94,7303871620.0,Les Taxis Picards,Marronniers,74,r,,,NOYERS SAINT MARTIN
+95,7353507681.0,Dépôt Bingo,Belle Assise,,zac,,,OURSEL MAISON
+96,7353507636.0,LCL Banque et Assurance,Gén Leclerc,22 ,r,,,AMIENS
+97,7303871564.0,RS Components (SAS),Norman King,,r,,,BEAUVAIS CEDEX
+98,7353507669.0,Communauté De Communes Rurales Du Beauvaisis (CCRB),Libération,20,av,Bis,,BRESLES
+99,7353507569.0,Groupement International De Mécanique Agricole (GIMA),Blaise Pascal,41,av,,,BEAUVAIS
+100,7353507548.0,LIDL,Amiens,96,r,,,BRETEUIL
+101,7303871616.0,ADMR,Hôtel de Ville,18,pl,,,CRÈVECOEUR LE GRAND
+102,7303871615.0,MARTINEZ PASCAL JEAN MARC,Aristide Briand,151,r,,,SAINT SAUVEUR
+103,7303871403.0,Forhom,Cytises,160,r,,,NOYERS SAINT MARTIN
+104,7303871531.0,LNA Santé Institut Médical De Breteuil,Paris,32,r,,,BRETEUIL
+105,7303871652.0,Afpi Oise,Marcel Dassault,240,av,,,BEAUVAIS
+106,7303871558.0,Tati,Pierre et Marie Curie,,r,,,BEAUVAIS
+107,7303871411.0,Inoforges (SA),Montdidier,1,r,,,BRETEUIL
+108,7353507834.0,DREAL Beauvais,Clermont,283,r,,,BEAUVAIS
+109,7303871406.0,Promeo,Marcel Dassault,240,av,,,BEAUVAIS CEDEX
+110,7303871408.0,Massey Ferguson Finance,Blaise Pascal,41,av,,,BEAUVAIS CEDEX
+111,7303871412.0,Conseil Départemental De L'Ordre Des Médecins,Croix Verte,577,r,,,AGNETZ
+112,7353507711.0,Artisal,Thomas Edison,9,r,,,NOGENT SUR OISE
+113,7303871109.0,Caisse Allocations Familiales L'Oise,Jules Ferry,2,r,,,BEAUVAIS
+114,7303871525.0,Securit Aqua' Services Installateur qualifié,Charles Somasco,10,r,,,CREIL
+115,7303871357.0,DEVRIENDT (SARL),Michel Gricourt,25,r,,,AUCHY LA MONTAGNE
+116,7303871216.0,Inspection Académique De L'oise,Victor Hugo,22,av,,,BEAUVAIS
+117,7303871217.0,Sos bricolage,Val D'Automne,358,av,,,BÉTHISY SAINT PIERRE
+118,7303871303.0,4s Pbp,Bois du Pont,111,r,,,SAINT OUEN L'AUMÔNE
+119,7303871547.0,Astriam Sécurité Picardie,Pommerets,,av,,,TILLÉ
+120,7303871549.0,Hôpital de Beauvais,Léon Blum,,av,,,BEAUVAIS
+121,7353507835.0,GTIE OISE BEAUVAIS,Industrie,1,r,,,BEAUVAIS
+122,7353507774.0,ASERTI Electronic,40 Mines,28,r,,,ALLONNE
+123,7303871648.0,Sauvage Bruno,Bonshommes,7,r,,,LA NEUVILLE SAINT PIERRE
+124,7353507836.0,Labo T.E.A.M,Jules Ferry,15,r,,,MOUY
+125,7353507738.0,Conseil Départemental de l'Oise,Cambry,1,r,,,BEAUVAIS
+126,7353507739.0,Maison De Ther,Arago,13,r,,,BEAUVAIS
+127,7303871647.0,Groupama Paris Val De Loire,Hôtel de Ville,21,pl,,,MÉRU
+128,7353507833.0,Martin-Brower France,Hippolyte Bayard,,r,,,BEAUVAIS
+129,7303871256.0,Mairie,Bouleaux,27,r,,,NOYERS SAINT MARTIN
+130,7303871255.0,Mairie,Bouleaux,27,r,,,NOYERS SAINT MARTIN
+131,7353507775.0,Mairie,Maully,10,r,,,ARGENTEUIL
+132,7303871311.0,Adecco,Hôtel Dieu,43,pl,,,BEAUVAIS
+133,7303871254.0,Carlier Baudoin Charpente Couverture (S.A.R.L),Principale,11,r,Bis,,MAISONCELLE TUILERIE
+134,7353507828.0,Panification Moderne (SARL),Félix Louat,30,av,,,SENLIS
+135,7303865561.0,Intermarché,Rivière,29,r,,,VIC SUR AISNE
+136,7303865573.0,Les Jardins de Nampcel,Couvillot,,r,,,NAMPCEL
+137,7353473323.0,Mairie,Mairie,81,r,,,PONCHON
+138,7353473162.0,Caron Bernard Théophile Henri (Commercant),Paris,48,r,,,MUILLE VILLETTE
+139,7353473163.0,Auchan Drive,Mont Renaud,32,zac,,,NOYON
+140,7353473157.0,Suez Sanitra Services,Ribécourt,970,rte,,,PIMPREZ
+141,7353473159.0,D'Ames & D'Hommes,Guynemer,25,cours,,,COMPIÈGNE
+142,7353473425.0,INSPECTION ACADEMIQUE DE L'OISE (0),Orroire,449,r,,,NOYON
+143,7303865792.0,Association Notre Dame,Roule,46,av,,,NEUILLY SUR SEINE
+144,7303865759.0,Le Galway,Aristide Briand,13,pl,,,NOYON
+145,7353473416.0,Guy Lefebvre (SA),Mar Leclerc,14,r,,,ELINCOURT SAINTE MARGUERITE
+146,7353473395.0,La Dionysienne,Compiègne,17,r,,,ESTRÉES SAINT DENIS
+147,7353473396.0,Etablissements Multon,Robert Estienne,120,r,,,NOYON
+148,7303865710.0,Manpower,8ème Division,29,r,,,COMPIÈGNE
+149,7353473262.0,Lafarge Granulats France,Verberie,,r,,,CHEVRIÈRES
+150,7353473263.0,Communauté De Communes Du Pays Noyonnais,Cambronne,1435,bd,,,NOYON
+151,7303865751.0,Aéroport De Paris Roissy Charles De Gaulle (ADP),Charles de Gaulle,,av,,,ROISSY EN FRANCE
+152,7303865750.0,Sarazin Virginie,Jeu D'Arc,48,r,,,BÉTHISY SAINT MARTIN
+153,7303865687.0,L'Imprimerie,Roissy,79,rte,,,TREMBLAY EN FRANCE
+154,7353473246.0,FEDERAL MOGUL FRICTION PRODUCTS,Europe,205,r,,,NOYON
+155,7303865600.0,Art Carrosserie Services 94,Sacco et Vanzetti,94,r,,,VILLEJUIF
+156,7353473247.0,FEDERAL MOGUL FRICTION PRODUCTS,Europe,205,r,,,NOYON
+157,7303865629.0,Lafarge Granulats France,Verberie,,r,,,CHEVRIÈRES
+158,7353473463.0,Point P,Gén Leclerc,171,r,,,RIBÉCOURT DRESLINCOURT
+159,7353473460.0,Fondation Maison De La Gendarmerie,Tournon,10,r,,,PARIS
+160,7303865595.0,Macif Assurances,Doct Guerin,4,r,,,COMPIÈGNE
+161,7353473371.0,SNCF (Direction Régionale de Paris-Est),11 Novembre 1918,,pl,,,PARIS
+162,7353473372.0,Hopital De Clermont,Fontaines,50,r,Bis,,CLERMONT
+163,7353473281.0,INSPECTION ACADEMIQUE DE L'OISE (0),Orroire,449,r,,,NOYON
+164,7353473282.0,INSPECTION ACADEMIQUE DE L'OISE (0),Orroire,449,r,,,NOYON
+165,7353473447.0,Silar (Ets),Gare,423,r,,,RESSONS SUR MATZ
+166,7353473448.0,Le Comptoir Du Malt,Mont Renaud,,zac,,,NOYON
+167,7303865585.0,Les Fils Rousseaux,Mar Leclerc,6,r,,,NOYON
+168,7353473364.0,Communauté De Communes Du Pays Noyonnais,Cambronne,1435,bd,,,NOYON
+169,7353473353.0,Noyon Faustine,Perdonnet,7,r,,,PARIS
+170,7353473354.0,Clinique Victor Pauchet,Irlande,2,av,,,AMIENS
+171,7353473216.0,Dana Yves,Mojzesz Solczanski,15,r,,,LAON
+172,7353473211.0,PKM Express,Amiens,6,r,,,COMPIÈGNE
+173,7353473212.0,Adoma,Louis Aragon,278,av,,,LIANCOURT
+174,7353473210.0,Délégation Territoriale A La Solidarité Haute Vallée De L'Oise Du Conseil Général De L'Oise,Robert Schumann,,bd,,,NOYON
+175,7303865571.0,Thermal Products France,Lieut Gabriel Lalanne,,r,,,GUISCARD
+176,7303865559.0,La Poste,Guynemer,5,r,,,LE BOURGET
+177,7353473340.0,SOTEP (Société Technique d'Extrusion Plastiques),Montgerain,,rte,,,TRICOT
+178,7353473342.0,Les Fils Rousseaux,Mar Leclerc,6,r,,,NOYON
+179,7353473335.0,Mairie,Hôtel de Ville,,pl,,,COMPIÈGNE
+180,7353473336.0,LEROY MERLIN,Metiers,154,r,,,JAUX
+181,7353473324.0,Comité D'Etablissement Régional SNCF Paris Sud Est,Valhubert,1,pl,,,PARIS
+182,7308195876.0,Auchan Drive,Descartes,1,av,,,BEAUVAIS
+183,7308201200.0,Fodis Fosses Distribution,Départementale 922,,rte,,,LA CHAPELLE EN SERVAL
+184,7308201198.0,Gendarmerie Nationale,Erables,9,r,,,CREPY EN VALOIS
+185,7700487109.0,L'Arche Oise Association,Four St Jacques,8,r,,,COMPIÈGNE
+186,7700487110.0,L Arche Oise,Four St Jacques,8,r,,,COMPIEGNE
+187,7700482466.0,L'Arche Oise,Fêtes,26,pl,,,TROSLY BREUIL
+188,7308201119.0,Gendarmerie Nationale,Jean Jaurès,2,av,,,VILLERS COTTERETS
+189,7308201120.0,Mairie de Paris (18e arrondissement),Jules Joffrin,1,pl,,,PARIS
+190,7700482494.0,L Arche Oise,Four St Jacques,8,r,,,COMPIEGNE
+191,7700482496.0,L'Arche Oise Association,Four St Jacques,8,r,,,COMPIÈGNE
+192,7308201138.0,Gendarmerie Nationale,Jean Jaurès,2,av,,,VILLERS COTTERETS
+193,7700478835.0,Gendarmerie Nationale,Jean Jaurès,2,av,,,VILLERS COTTERETS
+194,7700484775.0,Holiday Inn Paris-Aéroport Charles de Gaulle Alliance Hospitality Franchisé indépendant,Verger,4,all,,,ROISSY EN FRANCE
+195,7308205692.0,RELAIS H BEAUVAIS CH Bleu Café,Léon Blum,,av,,,BEAUVAIS
+196,7308205668.0,CENTRE HOSPITALIER SPECIALISE INTERDEPARTEMENTAL C.H.S.I.,Finets,2,r,,,CLERMONT
+197,7308205465.0,Ap-hp,Daguerre,18,r,,,PARIS
+198,7308205681.0,CENTRE HOSPITALIER SPECIALISE INTERDEPARTEMENTAL C.H.S.I.,Finets,2,r,,,CLERMONT
+199,7700482460.0,L'Arche Oise,Fêtes,26,pl,,,TROSLY BREUIL
+200,7700487129.0,L'Arche Oise,Fêtes,26,pl,,,TROSLY BREUIL
+201,7700487123.0,L Arche Oise,Four St Jacques,8,r,,,COMPIEGNE
+202,7700487102.0,Résidence Pour Personnes Agées Les Sorbiers,Sorbiers,27,r,,,SONGEONS
+203,7308203505.0,Gendarmerie Nationale,Plémont,14,r,,,LASSIGNY
+204,7700477052.0,ESAT L'Etincelle,Bouleaux,3,av,,,VERNEUIL EN HALATTE
+205,7700487122.0,Drozdowski Florence,Aigumonts,540,r,,,MONCEAUX
+206,7700487120.0,Drozdowski Florence,Aigumonts,540,r,,,MONCEAUX
+207,7700487114.0,Maison Communautaire,Finets,2,r,,,CLERMONT
+208,7700477059.0,ESAT L'Etincelle,Bouleaux,3,av,,,VERNEUIL EN HALATTE
+209,7700477068.0,ESAT L'Etincelle,Bouleaux,3,av,,,VERNEUIL EN HALATTE
+210,7700477058.0,ESAT L'Etincelle,Bouleaux,3,av,,,VERNEUIL EN HALATTE
+211,7308205817.0,Sfa Societe Francaise Assainissement,Bosquet,41,av,Bis,,PARIS
+212,7308196129.0,Gendarmerie Nationale,Clos de Longvillers,3,all,,,NOAILLES
+213,7308205815.0,Gendarmerie Nationale,Nationale,127,r,,,LACROIX SAINT OUEN
+214,7308205781.0,Adapei 60,Charles Faroux,3,r,,,COMPIÈGNE
+215,7308205780.0,Gendarmerie Nationale,Clos de Longvillers,3,all,,,NOAILLES
+216,7308196127.0,Gendarmerie Nationale,Clos de Longvillers,3,all,,,NOAILLES
+217,7308196132.0,Gendarmerie Nationale,Clos de Longvillers,3,all,,,NOAILLES
+218,7308201143.0,Gendarmerie Nationale,Jean Jaurès,2,av,,,VILLERS COTTERETS
+219,7308195891.0,INSPECTION ACADEMIQUE DE L'OISE (0),Franc Marche,10,r,,,GRANDVILLIERS
+220,7308201212.0,Centre Des Finances Publiques,Gérard Philipe,5,r,,,CLERMONT
+221,7308201214.0,MINISTERE DE LA DEFENSE (Base Aérienne 921),Paris,300,r,,,TAVERNY
+222,7308201090.0,Bip & Go,Meaux,,rte,,,SENLIS
+223,7308201089.0,Gendarmerie Nationale,St Jean,5,bd,,,BEAUVAIS
+224,7308201087.0,Gendarmerie Nationale,St Jean,5,bd,,,BEAUVAIS
+225,7308201083.0,Gendarmerie Nationale,St Jean,5,bd,,,BEAUVAIS
+226,7308201072.0,Oise Habitat,Gén Leclerc,4,r,,,CREIL
+227,7308201191.0,Gendarmerie Nationale,St Jean,5,bd,,,BEAUVAIS
+228,7308201173.0,Securitas Direct Fitz-James,Nelson Mandela,31,r,,,FITZ JAMES
+229,7308201159.0,Gendarmerie Nationale,St Jean,5,bd,,,BEAUVAIS
+230,7308205849.0,Gendarmerie Nationale,Magny,116,pl,,,GUISCARD
+231,7700478743.0,Gendarmerie Nationale,St Jean,5,bd,,,BEAUVAIS
+232,7308203616.0,Gendarmerie Nationale,Jacques Bara,2,av,,,CHANTILLY
+233,7308203617.0,Gendarmerie Nationale,Jacques Bara,2,av,,,CHANTILLY
+234,7308203614.0,Auchan,Jardins,,zac,,,LACROIX SAINT OUEN
+235,7308203611.0,Groupe Scolaire Charles Lahille,11 Novembre,173,r,,,CHAMBLY
+236,7308203610.0,La Maison des Travaux,Niepce,2,r,,,COMPIÈGNE
+237,7700477433.0,Mairie,Maurice Segonds,8,pl,,,BAILLEUL SUR THÉRAIN
+238,7700486569.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+239,7700486610.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+240,7700486608.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+241,7700486568.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+242,7700486602.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+243,7700486597.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+244,7700486596.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+245,7700486566.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+246,7700486563.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+247,7700486558.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+248,7700486591.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+249,7700486586.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+250,7700486585.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+251,7700489243.0,Etablissement Vereecke,Cauvigny Fayel,4,r,,,CAUVIGNY
+252,7700486578.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+253,7700486573.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+254,7700486553.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+255,7700486552.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+256,7700486550.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+257,7700486548.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+258,7700486543.0,C.A.T.René Brunelle,Bleriot,,r,,,BRETEUIL
+259,7354429710.0,Ecole Elémentaire,Eglise,7,r,,,FORMERIE
+260,7354429709.0,Nantier (GAEC),Puits,22,r,,,LOUEUSE
+261,7354429737.0,Krys,Montaigne,22,av,,,BEAUVAIS
+262,7354429736.0,Pin's Car,Larris,5,r,,,ROY BOISSY
+263,7354429757.0,Dekra Auto Bilan Courcelles Agent,Courcelles,59,bd,,,PARIS
+264,7300527197.0,Flavie Noé,Pointin,60,r,,,AMIENS
+265,7300527221.0,Aux Petits Caprices,Amiens,4,r,,,GRANDVILLIERS
+266,7354257688.0,Générale Surveillance Protection,Arras,26,bd,,,MITRY MORY
+267,7354257687.0,ECF Roissy Formation,Clément Ader,,r,,,DAMMARTIN EN GOËLE
+268,7354338624.0,AXSON FRANCE,Oresmaux,2,r,,,SAINT JUST EN CHAUSSÉE
+269,7354338623.0,Saaten Union France,Flandre,163,av,,,ESTRÉES SAINT DENIS
+270,7354338627.0,ALLIANZ FINANCE CONSEIL,Clément Ader,5,r,,,COMPIÈGNE
+271,7354338626.0,Transports Monnehay,Beauvais,24,r,,,FROISSY
+272,7300530712.0,Bergeon Traiteur (SARL),Grand Parc,4,r,,,MAINNEVILLE
+273,7300527446.0,Dialog Services,Hippolyte Bayard,,r,,,BEAUVAIS
+274,7300527445.0,Igol Picardie Ile De France,Cagny,114,r,,,AMIENS
