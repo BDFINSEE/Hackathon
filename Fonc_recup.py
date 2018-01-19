@@ -33,7 +33,6 @@ def nettoyage_espaces(chaine):
         ch=ch[1:]
     return ch
 
-test={'nom_ent': 'DSDEN (EDUCATION NATIONALE)', 'num_voie': '', 'type_voie': '', 'nom_voie': 'COLLEGE GUY DE MAUPASSANT', 'code_postal': '', 'dep': '14', 'commune': 'SAINT MARTIN DE FONTENAY', 'bis_ter': '', 'adresse_complete': 'COLLEGE GUY DE MAUPASSANT'}
 
 def requete_PJ(nom,ville):
     url='https://www.pagesjaunes.fr/recherche/'+ville+'/'+nom
@@ -46,11 +45,37 @@ def requete_PJ(nom,ville):
             '//*[contains(concat( " ", @class, " " ), concat( " ", "adresse", " " ))]')
     return (contenu,result_names,result_addresses)
     
-def recup_PJ(ligne_ent): 
-#    ligne_ent=test
+import re 
+
+def decoupe_adresse(adresse):
+    #Expression régulière Farid
+    p = re.compile(r"\D*([\d*\s]*).([Bb]is|ter)*\s*(r|bd|pl|rte|av|ra|cours|all|crs|zac|\s)\s*(.*),\s*(\d+)\s(.*)$", re.IGNORECASE)
+    m = p.match(adresse)
+    num_voi=m.group(1)
+    bister=m.group(2)
+    if bister==None:
+        bister=""
+    type_voi=m.group(3)
+    nom_voi=m.group(4)
+#    postal_code=m.group(5)
+    vil=m.group(6)
+    return [nom_voi,num_voi,type_voi,bister,"",vil]
+
+adresse='81 83 bd République, 24500 EYMET'
+adresse='66 La Canebière, 13001    MARSEILLE'
+
+decoupe_adresse(adresse)
+
+
+def recup_PJ(cabbi,ligne_ent):
+    ligne_ent=test
     tab=[]
-    nom=ligne_ent["nom_ent"]
     j=0
+    if str(ligne_ent["nom_ent"])==ligne_ent["nom_ent"]:
+        nom=ligne_ent["nom_ent"]
+    else:
+        j=12
+        #return [] -> ça cesse la fonction ?
     while j<2:
         if ligne_ent["nom_voie"]!="" and str(ligne_ent["nom_voie"])==ligne_ent["nom_voie"] and j==0:
             if ligne_ent["type_voie"]!="":
@@ -68,37 +93,30 @@ def recup_PJ(ligne_ent):
             ville=ville+ligne_ent["code_postal"]+"-"
         ville=ville[:-1]
         (contenu,result_names,result_addresses)=requete_PJ(nom,ville)
-    #    result_secteurs=tree.xpath(
-    #            '//*[contains(concat( " ", @class, " " ), concat( " ", "activites", " " ))]')
-    #    #TEST####
-    #    len(result_names)==len(result_addresses)
-    #    len(result_names)==len(result_secteurs)
-    #    #######
         n=len(result_names)
+        n=min(n,1)
         if n>0:
             j=10
             for i in range(n):
                 #Le nom
                 name=result_names[i].text.split("\n")[1]
                 name=nettoyage_espaces(name)
-                #L'adresse (en deux étapes)
+                #L'adresse (adresse totale, puis ville découpée en code postal vrai et nom)
+                addr_all=result_addresses[i].text.split("\n")[2]
                 addr=result_addresses[i].text.split("\n")[2].split(",")[0]
                 addr=nettoyage_espaces(addr)
                 town=result_addresses[i].text.split("\n")[2].split(",")[1]
                 town=nettoyage_espaces(town)
                 postal=''.join([i for i in town if i.isdigit()])
-            #        #Le secteur d'activité
-            #        sector=result_secteurs[i].text.split("\n")[1]
-            #        sector=nettoyage_espaces(sector)
-                tab.append([name,postal])
+                town_pure=''.join([i for i in town if i.isdigit()==False])
+                #Résultat
+                ligne=[cabbi,name]+decoupe_adresse(addr_all)
+                tab.append(ligne)
         else:
             j=j+1
-    return pd.DataFrame(tab)
+    return tab
 
 test={'nom_ent': 'GENDARMERIE NATIONALE', 'num_voie': '2', 'type_voie': 'Rue', 'nom_voie': 'DE CHATEAUBRIAND', 'code_postal': '1053', 'dep': '', 'commune': '', 'bis_ter': '', 'adresse_complete': '2 Rue DE CHATEAUBRIAND'}
-
-  
-#if name=__main__:
 
     
     
